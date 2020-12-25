@@ -22,6 +22,7 @@ module.exports = {
         // Because it don't look for 'path' property, it only look for 'filename' by default. As here it finds
         // bundle.js, so it looks for this file /bundle.js, while it is in /dist/bundle.js, so we need to update public path
         // public path is not required, if we are keeping index.html also in dist, because in that case public path would be / which is default value
+        // public path is path that goes in index.html
         //publicPath:'/dist'
     },
     module: {

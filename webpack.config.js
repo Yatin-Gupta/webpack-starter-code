@@ -111,7 +111,7 @@ module.exports = {
         new webpack.ProvidePlugin({
             // Here we tell whenever in code encounter $,jQuery variable, then use jquery package to find its values
             $: 'jquery',
-            jQuery: 'jQuery'
+            jQuery: 'jquery'
         }),
         // If we pass no template, then it will create dummy index.html in which bundle js files, css and scss files will be loaded
         // otherwise our template will be considered. It will still create index.html but with code in our template file
